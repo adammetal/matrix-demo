@@ -1,0 +1,17 @@
+{
+  "name": "Matrixify",
+  "version": "1.0.0",
+  "description": "Make matrix on every site",
+  "manifest_version": 3,
+  "author": "Adam",
+  "content_scripts": [
+    {
+      "js": [
+        "matrix.js"
+      ],
+      "matches": [
+        "<all_urls>"
+      ]
+    }
+  ]
+}
